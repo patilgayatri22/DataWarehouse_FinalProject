@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: weather
+    schema: source
+    description: "Schema which stores raw tables (ETL)"
+    tables:
+      - name: daily_weather
+        identifier: daily_weather
+        description: "Weather data"
+  - name: analytics_data
+    database: weather
+    schema: data
+    description: "Schema with stores analytics tables (ELT)"
+    tables:
+      - name: temperature_range
+        identifier: temperature_range
+        description: "Complete info"
+

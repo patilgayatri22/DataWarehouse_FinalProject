@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: temperature_range
+    description: "Analytics model for weather data"
+    columns:
+      - name: datetime
+        description: "Unique identifier for each record"
+        data_tests:
+          - not_null
+          - unique
