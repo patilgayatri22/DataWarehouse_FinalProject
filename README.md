@@ -6,9 +6,9 @@ The project utilizes Snowflake for data storage, Apache Airflow for orchestratio
 
 **Objectives:**
 1. Implement an ETL process to populate raw weather data tables in Snowflake using Airflow
-1. Develop an ELT process using dbt to create abstract tables with calculated weather metrics
-2. 3. Visualize key weather analytics using Tableau
-Integrate all components into a cohesive, automated pipeline
+2. Develop an ELT process using dbt to create abstract tables with calculated weather metrics
+3. Visualize key weather analytics using Tableau
+
 
 **Specification:**
 
