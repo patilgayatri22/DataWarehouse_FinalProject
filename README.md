@@ -1,5 +1,5 @@
 # DataWarehouse_FinalProject
-Paroject Group : 5
+Project Group : 5
 Deeksha Chauhan, Gayatri Patil, Nikhil Swami, Shweta Shinde
 
 The project utilizes Snowflake for data storage, Apache Airflow for orchestration, dbt for data transformation, and Tableau for visualization, leveraging each tool's strengths to create a comprehensive analytics solution. Weather data is crucial for various sectors, including agriculture, energy, transportation, and urban planning. This project aims to create an efficient, scalable data pipeline that can ingest, process, and visualize weather data, providing valuable insights for decision-making.
